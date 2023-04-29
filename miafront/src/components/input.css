@@ -1,0 +1,33 @@
+:root{
+    --primary: #4d4a53;
+    
+
+}
+.imp{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.imp--primary--solid{
+    background-color: var(--primary);
+    color: var(--gray);
+    border: none;
+
+}
+
+.imp--medium {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.imp--small {
+    padding: 5px 5px;
+    font-size: 15px;
+}
+
+.imp--large {
+    padding: 20px 40px;
+    font-size: 24px;
+}

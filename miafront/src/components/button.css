@@ -1,0 +1,89 @@
+:root{
+    --primary: #59585c;
+    --warning: #ffb000;
+    --danger: #ff4d4f;
+    --success: #00c851;
+    --white: #fff;
+    --dark: #000;
+
+}
+
+.btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform .3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
+
+.btn--primary--solid {
+    background-color: var(--primary);
+    color: var(--gray);
+    border: none;
+}
+
+.btn--primary--outline {
+    background-color: transparent;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
+.btn--warning--outline {
+    background-color: transparent;
+    color: var(--warning);
+    border: 2px solid var(--warning);
+    
+}
+
+.btn--warning--solid {
+    background-color: var(--warning);
+    color: var(--dark);
+    border: none;
+}
+
+.btn--danger--solid {
+    background-color: var(--danger);
+    color: var(--dark);
+    border: none;
+    
+}
+
+.btn--success--solid {
+    background-color: var(--success);
+    color: var(--white);
+    border: none;
+    
+}
+
+.btn--danger--outline {
+    background-color: transparent;
+    color: var(--danger);
+    border: 2px solid var(--danger);
+    
+}
+
+.btn--success-outline {
+    background-color: transparent;
+    color: var(--success);
+    border: 2px solid var(--success);
+    
+}
+
+.btn--medium {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.btn--small {
+    padding: 15px 30px;
+    font-size: 20px;
+}
+
+.btn--large {
+    padding: 20px 40px;
+    font-size: 24px;
+}
