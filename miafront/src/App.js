@@ -13,7 +13,7 @@ function App() {
     const handleClick = () => {
    
     console.log(myValue);
-    userApi.post('ec2-3-137-107-30.us-east-2.compute.amazonaws.com:8080/interpretar', { entrada: myValue }
+    userApi.post('http://ec2-3-137-107-30.us-east-2.compute.amazonaws.com:8080/interpretar', { entrada: myValue }
     //userApi.post('http://localhost:8080/interpretar', { entrada: myValue }
     )
     .then(({data}) => {

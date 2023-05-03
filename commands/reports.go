@@ -99,8 +99,8 @@ func Reports(id string, rep string, path string, route string, consola *string) 
 	if err != nil {
 		log.Fatal(err)
 	}
-	extension := path[(len(path) - 3):(len(path))]
-	exec.Command("dot", "-T"+extension, "report.dot", "-o", path).Output()
+//	extension := path[(len(path) - 3):(len(path))]
+	exec.Command("dot", "-Tpng", "report.dot", "-o", path).Output()
 	fmt.Println("[REPORT] El reporte fue generado con exito.")
 	*consola = *consola + "[REPORT] El reporte fue generado con exito."
 }
